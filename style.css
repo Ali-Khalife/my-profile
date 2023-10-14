@@ -1,0 +1,195 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(248,249,252,255);
+  color: #575F7D;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.card-white:hover {
+  background-color: rgba(242,247,231,255);
+}
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-size:30px;text-align:center; line-height:1.5em; padding-bottom:45px; font-family:"Playfair Display", serif; text-transform:uppercase;letter-spacing: 2px; color:#111;
+}
+
+.title h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 60%;
+  left:50%; margin-left:-30%;
+  height: 1px;
+  content: "";
+  background-color: #777; z-index: 4;
+}
+
+.title h1:after {
+  position:absolute;
+  width:40px; height:40px; left:50%; margin-left:-20px; bottom:0px;
+  content: '\00a7'; font-size:30px; line-height:40px; color:#c50000;
+  font-weight:400; z-index: 5;
+  display:block;
+  background-color:#f8f8f8;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, td {
+  border: none;
+  text-align: center;
+  vertical-align: middle; 
+  padding: 0 10px;
+}
+    
+.table1 {
+  width: 33.33%;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+.table1:hover {
+  color: red;
+  font-style: italic;
+}
+
+.table2 {
+  width:50%;
+  font-weight: bolder;
+}
+
+.no-points {
+  list-style-type: none;
+  padding: 0;
+}
+
+.no-points li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-blue {
+  background-color: #004a97;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.btn-blue:hover {
+  background-color: #e42747;
+}
+
+
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px; 
+}
+
+.list-inline i{
+  font-size: 50px;
+  color: rgba(230, 230, 230, 1.0);
+  transition: 0.5s;
+}
+
+.list-inline i:hover{
+  color: black;
+}
+
+#Red {
+  color: rgba(220,20,60,255);
+}
+
+#Purple {
+  color: #4b0082;
+}
+
+#Blue {
+  color: rgba(3,191,255,255);
+}
+
+#Orange {
+  color: #d3691e;
+}
+
+#Pink {
+  color: rgba(199,21,133,255);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
